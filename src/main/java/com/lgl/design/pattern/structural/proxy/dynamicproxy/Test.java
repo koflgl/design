@@ -15,7 +15,8 @@ public class Test {
         Order order = new Order();
 //        order.setUserId(2);
         order.setUserId(1);
-        IOrderService orderServiceDynamicProxy = (IOrderService) new OrderServiceDynamicProxy(new OrderServiceImpl()).bind();
+        IOrderService orderServiceDynamicProxy =
+                (IOrderService) new OrderServiceDynamicProxy(new OrderServiceImpl()).bind();
 
         orderServiceDynamicProxy.saveOrder(order);
     }
