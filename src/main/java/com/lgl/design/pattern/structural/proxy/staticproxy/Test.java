@@ -1,6 +1,7 @@
 package com.lgl.design.pattern.structural.proxy.staticproxy;
 
-import com.geely.design.pattern.structural.proxy.Order;
+
+import com.lgl.design.pattern.structural.proxy.Order;
 
 /**
  * @author lgl

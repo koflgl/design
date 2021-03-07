@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by geely.
+ * @author lgl
+ * @Description
+ * @Date 2021/3/7 18:10
  */
 public class CourseAggregateImpl implements CourseAggregate {
 

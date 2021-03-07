@@ -3,7 +3,9 @@ package com.lgl.design.pattern.behavior.iterator;
 import java.util.List;
 
 /**
- * Created by geely.
+ * @author lgl
+ * @Description
+ * @Date 2021/3/7 18:10
  */
 public class CourseIteratorImpl implements CourseIterator {
 
